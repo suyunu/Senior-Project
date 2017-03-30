@@ -1,23 +1,18 @@
-These are the numbers of the trained LDA data like below.
-
-dictionary = "TRTWORLD_Followers_5-7.dict"
-corpus = "TRTWORLD_Followers_5-7.mm"
-lda = "TRTWORLD_Followers_5-7_40-20-0001.lda"
+The numbers after dictionary, corpus and lda file names corresponds to change log number.
 
 dictionary = "TRTWORLD_Followers_5-7(10).dict"
 corpus = "TRTWORLD_Followers_5-7(10).mm"
 lda = "TRTWORLD_Followers_5-7_25-20-0001.lda"
 
-
-1:	Eksik train edilmis
-2:	Tam train edilmis ilk hal
-3:	Tum Corpus ta 1 kere gecen kelimeler corpustan ve dictionary den cikarildi
-4:	Tum Corpus ta 1 ve 2 kere gecen kelimeler corpustan ve dictionary den cikarildi
-5:	20 topic ile denendi
-6: 	Deleted Accounts whose length of tokenized tweets are less than 200
-7: 	Added Snowball Stemmer (Porter2)
-8:	20 Topics
-9:	30 Topics, Tum Corpus ta 1 ve 2 kere gecen kelimeler corpustan ve dictionary den cikarildi
-10:	25 topics, Tum Corpus ta 1, 2 ve 3 kere gecen kelimeler corpustan ve dictionary den cikarildi
-11:	15 topics
-12:	20 topics
+1:	Faulty Train. (40 Topics)
+2:	First correct train with full data. (40 Topics)
+3:	Remove words that appears at most 1 time in the whole corpus. (40 Topics)
+4:	Remove words that appears at most 2 times in the whole corpus. (40 Topics)
+5:	Remove words that appears at most 1 time in the whole corpus. (20 Topics)
+6: 	Added process deleting accounts whose length of tokenized tweets are less than 200. (30 Topics)
+7: 	Added Snowball Stemmer (Porter2). (30 Topics)
+8:	(20 Topics)
+9:	Remove words that appears at most 2 times in the whole corpus. (30 Topics)
+10:	Remove words that appears at most 3 times in the whole corpus. (25 Topics)
+11: (15 Topics)
+12: (20 Topics)
