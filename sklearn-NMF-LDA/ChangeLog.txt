@@ -1,0 +1,18 @@
+The numbers after dictionary, corpus and lda file names corresponds to change log number.
+
+dictionary = "TRTWORLD_Followers_5-7(10).dict"
+corpus = "TRTWORLD_Followers_5-7(10).mm"
+lda = "TRTWORLD_Followers_5-7_25-20-0001.lda"
+
+1:	Faulty Train. (40 Topics)
+2:	First correct train with full data. (40 Topics)
+3:	Remove words that appears at most 1 time in the whole corpus. (40 Topics)
+4:	Remove words that appears at most 2 times in the whole corpus. (40 Topics)
+5:	Remove words that appears at most 1 time in the whole corpus. (20 Topics)
+6: 	Added process deleting accounts whose length of tokenized tweets are less than 200. (30 Topics)
+7: 	Added Snowball Stemmer (Porter2). (30 Topics)
+8:	(20 Topics)
+9:	Remove words that appears at most 2 times in the whole corpus. (30 Topics)
+10:	Remove words that appears at most 3 times in the whole corpus. (25 Topics)
+11: (15 Topics)
+12: (20 Topics)
