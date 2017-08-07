@@ -2,7 +2,7 @@
 #### Burak Suyunu - Mehmet Akif Çördük
 #### Advisor: Assoc. Prof. Ali Taylan Cemgil
 
-Here is a 5 minute video which explains every aspects of this project with resluts: https://www.youtube.com/watch?v=pyTBeudsTYQ
+Here is a 5 minute video which explains every aspects of this project with results: https://www.youtube.com/watch?v=pyTBeudsTYQ
 
 ## What are They Tweeting About?
 * Makers, scientists, influencers and many other people share their ideas, products and innovations via the most intellectual social network **Twitter**.
@@ -13,10 +13,10 @@ Here is a 5 minute video which explains every aspects of this project with reslu
 
 ## Dataset - Similar-Twtiiter
 We created this tool to find similar users to a given user base on Twitter. It works like this:
-1. Determine base users which will underlie our similar user database.
-2. Get lists of our base users which they are a member of
-3. Find common lists of base users
-4. Get members of the common lists.
+* Determine base users which will underlie our similar user database.
+* Get lists of our base users which they are a member of
+* Find common lists of base users
+* Get members of the common lists.
 
 ## Maintaining Tweets – NLP
 * **Imagination is more important than knowledge: https://Einstein.co #Einstein**
